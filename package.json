@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.4.4",
+    "openai": "^4.28.0",
+    "telegraf": "^4.15.3"
+  },
+  "scripts": {
+    "start": "nodemon node ./src/main.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
