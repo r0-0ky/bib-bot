@@ -9,7 +9,7 @@ export async function chatGenerate(ctx) {
       { role: "system", content: "Ты крутой бесстрашный мужик мудрец" },
       { role: "user", content: ctx.message.text },
     ],
-    model: "gpt-3.5-turbo",
+    model: "gpt-4-turbo-preview",
   });
   ctx.reply(completion.choices[0].message.content);
 }
