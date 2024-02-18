@@ -19,8 +19,8 @@ bot.start(ctx => {
 	);
 });
 bot.hears("😎 Пафосная беседа", ctx => {ctx.reply(a); a += 'a'});
-bot.hears(/^[^\/].*/, chatGenerate);
 bot.hears('Моей любимке', ctx => ctx.replyWithPhoto({ url: 'https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_563,h_549/https://otkritkit.ru/wp-content/uploads/love-you-kitty-5.jpg' }, { caption: mes }));
+bot.hears(/^[^\/].*/, chatGenerate);
 
 bot.launch()
 
